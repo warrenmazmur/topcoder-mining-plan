@@ -7,7 +7,7 @@ function OrderedTimeline(props) {
   return (
     <ul>
       {data.map((row) => (
-        <li key={row.id}>{row.name}</li>
+        <li key={row.id}>Name: {row.name}, Value: {row.value}, Time to Mine: {row.timeToMine}</li>
       ))}
     </ul>
   )

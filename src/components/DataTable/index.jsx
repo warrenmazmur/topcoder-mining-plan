@@ -6,7 +6,7 @@ function DataTable(props) {
   const columns = [
     {field: 'name', headerName:'Name', width: 150},
     {field: 'value', headerName:'Value', width: 150},
-    {field: 'timeToMine', headerName:'Time to Mine', width: 150},
+    {field: 'timeToMine', headerName:'Time to Mine', width: 200},
   ]
   
   const rows = [
